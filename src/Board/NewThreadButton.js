@@ -6,7 +6,7 @@ const NewThreadButton = ({ user, newThread, styles }) => {
   if (user) {
     return (
       <Button className={styles.button} onClick={() => newThread()}>
-        New thread
+        Post what you spotted!
       </Button>
     )
   } else {

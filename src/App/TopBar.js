@@ -29,12 +29,15 @@ const TopBar = ({
             style={styles.link}
           />
         </h1>
+       
         <div className={styles.buttonsContainer}>
+          {/*
           <SettingsButton
             user={user}
             toggleVisible={toggleSettings}
             styles={theme.SettingsButton}
-          />
+          /> */}
+
           <AuthenticationMenu
             user={authenticatedUser}
             styles={theme.AuthenticationMenu}

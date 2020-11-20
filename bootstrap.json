@@ -1,20 +1,39 @@
 {
-  "adminUsers": {},
+  "adminUsers": {
+    "odyd61rpdZZATtTPxTn01n4Xbaw2": true
+  },
+  
   "boards": {
     "0": {
-      "title": "General discussion",
+      "title": "article one",
       "active": true,
       "threads": {
-        "0": true
+        "0": false
+      }
+    },
+    "1": {
+      "title": "article two",
+      "active": true,
+      "threads": {
+        "0": false
+      }
+    },
+    "2": {
+      "title": "article three",
+      "active": true,
+      "threads": {
+        "0": false
       }
     }
   },
   "categories": {
     "0": {
-      "title": "General",
+      "title": "Discuss articles on climate change",
       "active": true,
       "boards": {
-        "0": true
+        "0": true,
+        "1": true,
+        "2": true
       }
     }
   },

@@ -3,6 +3,7 @@ import { styles } from 'refire-app'
 import Footer from './Footer'
 import TopBar from './TopBar'
 import LoadingSpinner from './LoadingSpinner'
+// DexDes: The user setting for dark/light version is unnecessary
 import UserSettings from './UserSettings'
 import globalStyles from '../globalStyles'
 

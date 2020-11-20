@@ -86,7 +86,7 @@ class AuthenticationMenu extends Component {
   clearError = () => {
     this.setState({ error: null })
   }
-
+// DexDes: We only have Google for this prototype - it is rather difficult to include authentification system from other sources.
   render() {
     const { user, styles } = this.props
     if (user) {
@@ -105,18 +105,19 @@ class AuthenticationMenu extends Component {
               flow="popup"
               onError={this.onError}
               onClick={this.toggleDropdown}
-            >
+            >  
               <DropdownItem className={styles.menuAction}>
                 <GoogleIcon size="20px" color="#db3236" />
                 <span className={styles.menuItemText}>Google</span>
               </DropdownItem>
-            </FirebaseOAuth>
+            </FirebaseOAuth> {/*
             <FirebaseOAuth
               provider="github"
               flow="popup"
               onError={this.onError}
               onClick={this.toggleDropdown}
-            >
+            > 
+            
               <DropdownItem className={styles.menuAction}>
                 <GithubIcon size="20px" />
                 <span className={styles.menuItemText}>Github</span>
@@ -137,17 +138,17 @@ class AuthenticationMenu extends Component {
               provider="facebook"
               flow="popup"
               onError={this.onError}
-              onClick={this.toggleDropdown}
-            >
+            onClick={this.toggleDropdown} 
+            > 
               <DropdownItem className={styles.menuAction}>
                 <FacebookIcon size="20px" color="#3b5998" />
                 <span className={styles.menuItemText}>Facebook</span>
               </DropdownItem>
-            </FirebaseOAuth>
+            </FirebaseOAuth> */}
           </DropdownMenu>
           <Backdrop isOpen={this.state.isOpen} closeDropdown={this.toggleDropdown} />
-          <ErrorModal error={this.state.error} toggleVisible={this.clearError} />
-        </span>
+            <ErrorModal error={this.state.error} toggleVisible={this.clearError} /> 
+            </span> 
       )
     }
   }
