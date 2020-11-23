@@ -15,6 +15,7 @@ import ShowPagination from './ShowPagination'
 import SettingsButton from './SettingsButton'
 import BoardSettings from './Settings'
 
+
 class Board extends Component {
 
   constructor(props, context) {
@@ -129,7 +130,11 @@ class Board extends Component {
           <div className={styles.headerContainer}>
             <h2 className={styles.header}>
               {board.title}
-            </h2>
+            </h2> 
+            <a href= {board.link} target="_blank" class="btn btn-primary">
+            <span class="glyphicon glyphicon-th-list"></span> Link
+             </a>
+
             <div className={styles.buttonsContainer}>
               <SettingsButton
                 visible={isAdmin}
@@ -162,6 +167,11 @@ class Board extends Component {
             pageSize={BOARD_PAGE_SIZE}
           />
         </Card>
+
+        <Card className={styles.container}> 
+        <h2>we might put summary of inoculation tech here</h2>
+        </Card>
+
         <PostNewThread
           boardId={boardId}
           user={user}

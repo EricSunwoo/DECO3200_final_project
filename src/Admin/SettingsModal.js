@@ -19,6 +19,7 @@ const SettingsModal = ({
   saveText = "Save",
   title,
   hide,
+  link,
   visible,
   width="medium",
   Footer=DefaultFooter,
@@ -34,6 +35,7 @@ const SettingsModal = ({
     >
     	<ModalHeader
         text={title}
+        link={link}
         showCloseButton
         onClose={hide}
         className={styles.modal}

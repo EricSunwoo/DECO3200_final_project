@@ -5,7 +5,8 @@
   
   "boards": {
     "0": {
-      "title": "article one",
+      "title": "Effects Of Future Climate Change Migration",
+      "link": "https://www.theonion.com/effects-of-future-climate-change-migration-1845097616",
       "active": true,
       "threads": {
         "0": false
@@ -61,7 +62,7 @@
       "createdAt": "1457180850877",
       "lastPostAt": "1457180850877",
       "posts": {
-        "0": true
+        "0": false
       },
       "title": "Welcome",
       "user": {
