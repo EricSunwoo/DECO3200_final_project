@@ -3,7 +3,7 @@ export default {
     height: "100%",
   },
   body: {
-    height: "100%",
+    height: "100%" ,
   },
   "#app, .app-container": {
     height: "100%",

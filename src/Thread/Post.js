@@ -154,14 +154,14 @@ class Post extends Component {
                 locked={locked}
                 onClick={() => updateQuote("", postKey)}
                 styles={theme.ReplyButton}
-              />
+              /> {/*
               <UpvoteButton
                 user={user}
                 upvotes={Object.keys(post.likes || {}).length || 0}
                 liked = {includes(Object.keys(post.likes || {}),(uid) || {}) && post.likes[uid] === true}
                 onClick={() => toggleUpvote(postKey)}
                 styles={theme.UpvoteButton}
-              />
+              />*/}
             </div>
           </div>
         </Card>

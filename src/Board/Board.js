@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { styles } from 'refire-app'
+import { Link, styles } from 'refire-app'
 import { Card } from 'elemental'
 import sortBy from 'lodash/sortBy'
 import drop from 'lodash/drop'
@@ -125,17 +125,26 @@ class Board extends Component {
           visible={this.state.settingsVisible}
           toggleVisible={this.toggleSettings}
           styles={theme.BoardSettings}
-        />
+        />        
+        <Card className={styles.container}> 
+        <div className={styles.headerContainer}>             
+        <h2 className={styles.header}>
+              {board.title}             
+              <a href= {board.link} target="_blank">
+             <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/15677149341556277321-512.png" width="25px" height="auto" ></img>
+             </a>
+            </h2> 
+        <h3>Tricks: {board.tricks} </h3>
+        <img src={board.content} width="100%" height="auto" ></img></div>
+        </Card>
         <Card className={styles.container}>
           <div className={styles.headerContainer}>
-            <h2 className={styles.header}>
-              {board.title}
+          <h2 className={styles.header}>
+              Discuss any <b>{board.tricks}</b> you discovered
             </h2> 
-            <a href= {board.link} target="_blank" class="btn btn-primary">
-            <span class="glyphicon glyphicon-th-list"></span> Link
-             </a>
 
-            <div className={styles.buttonsContainer}>
+
+            {/* <div className={styles.buttonsContainer}>
               <SettingsButton
                 visible={isAdmin}
                 toggleVisible={this.toggleSettings}
@@ -146,7 +155,7 @@ class Board extends Component {
                 newThread={this.focusNewThread}
                 styles={theme.NewThreadButton}
               />
-            </div>
+    </div> */}
           </div>
           <NewThreadsAvailable
             threads={threads}
@@ -168,9 +177,7 @@ class Board extends Component {
           />
         </Card>
 
-        <Card className={styles.container}> 
-        <h2>we might put summary of inoculation tech here</h2>
-        </Card>
+
 
         <PostNewThread
           boardId={boardId}

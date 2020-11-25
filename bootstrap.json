@@ -5,22 +5,38 @@
   
   "boards": {
     "0": {
-      "title": "Effects Of Future Climate Change Migration",
-      "link": "https://www.theonion.com/effects-of-future-climate-change-migration-1845097616",
+      "title": "'10 Reasons To Prove That Climate Change is a Hoax'",
+      "link": "https://www.eartheclipse.com/climate-change/10-reasons-climate-change-is-hoax.html",
+      "content": "https://i.imgur.com/IDVL9qB.jpg",
+      "tricks": "Cherry Picking",
       "active": true,
+      "image": "https://p3w6d7a3.stackpathcdn.com/wp-content/uploads/2016/02/polar-bear-taken-in-the-arctic.jpg",
       "threads": {
         "0": false
       }
     },
     "1": {
-      "title": "article two",
+      "title": "'REPORT: Earth Has Not Warmed For Past 19 Years'",
+      "link": "https://www.eartheclipse.com/climate-change/10-reasons-climate-change-is-hoax.html",
+      "content": "https://i.imgur.com/TAiQHKl.png",
+      "image": "https://inthesetimes.com/imager/s3_us-east-2_amazonaws_com/itt-images/macdonald_climate_change_denial_carbon_01c8ac7cc3b849e525e370bc51344120.jpg",
       "active": true,
       "threads": {
         "0": false
       }
     },
     "2": {
-      "title": "article three",
+      "title": "'Newly released emails prove that scientists have manipulated data on global warming'",
+      "link": "https://twitter.com/realDonaldTrump/status/141946031049949184",
+      "image": "https://s.wsj.net/public/resources/images/EG-AC464A_Delin_G_20111124140557.jpg",
+      "content": "https://i.imgur.com/TAiQHKl.png",
+      "active": true,
+      "threads": {
+        "0": false
+      }
+    },
+    "3": {
+      "title": "hello three",
       "active": true,
       "threads": {
         "0": false
@@ -28,7 +44,7 @@
     }
   },
   "categories": {
-    "0": {
+    "1": {
       "title": "Discuss articles on climate change",
       "active": true,
       "boards": {
@@ -37,16 +53,17 @@
         "2": true
       }
     }
+
   },
   "posts": {
     "0": {
-      "body": "refire-forum has been successfully setup",
+      "body": "I think this is a logical fallacy because...",
       "createdAt": "1457180850877",
       "threadId": "0",
       "user": {
         "displayName": "Refire Bootstrap",
         "id": "not-available",
-        "image": ""
+        "image": "https://i.imgur.com/gcO2W3j.png"
       }
     }
   },
@@ -64,11 +81,11 @@
       "posts": {
         "0": false
       },
-      "title": "Welcome",
-      "user": {
-        "displayName": "Refire Bootstrap",
-        "id": "not-available",
-        "image": ""
+        "title": "Example:'It is good for the Bears",
+        "user": {
+          "displayName": "Hello",
+          "id": "not-available",
+          "image": ""
       }
     }
   },

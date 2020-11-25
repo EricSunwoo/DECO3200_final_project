@@ -74,7 +74,7 @@ const css = {
   // register global styles
   ":global": globalStyles,
   app: {
-    maxWidth: "980px",
+    maxWidth: "800px",
     margin: "0 auto",
     padding: "0 20px",
   },

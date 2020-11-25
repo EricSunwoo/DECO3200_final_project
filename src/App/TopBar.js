@@ -20,14 +20,9 @@ const TopBar = ({
       <div className={styles.topbar}>
         <h1 className={styles.header}>
           <Link to="/" className={styles.link}>
-            { siteName }
+            Greenhouse
+            {/*<img src="https://i.imgur.com/gcO2W3j.png" style={{paddingLeft: 10}}></img> */}
           </Link>
-          <BoardLink
-            board={board}
-            boardKey={boardKey}
-            threadKey={threadKey}
-            style={styles.link}
-          />
         </h1>
        
         <div className={styles.buttonsContainer}>
@@ -59,7 +54,7 @@ const css = {
   },
   topbar: {
     position: "relative",
-    maxWidth: "940px",
+    maxWidth: "800px",
     margin: "0 auto",
     height: "50px",
     padding: "7px 20px",
