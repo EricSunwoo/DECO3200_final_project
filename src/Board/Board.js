@@ -129,12 +129,12 @@ class Board extends Component {
         <Card className={styles.container}> 
         <div className={styles.headerContainer}>             
         <h2 className={styles.header}>
-              {board.title}             
-              <a href= {board.link} target="_blank">
+                
+              <a href= {board.link} target="_blank"><b>{board.title}</b>    
              <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/15677149341556277321-512.png" width="25px" height="auto" ></img>
-             </a>
-            </h2> 
-        <h3>Tricks: {board.tricks} </h3>
+             </a> 
+            </h2> <hr style={{ marginTop: '0px', }}/>
+        <h3>Tricks employed: {board.tricks} </h3>
         <img src={board.content} width="100%" height="auto" ></img></div>
         </Card>
         <Card className={styles.container}>
