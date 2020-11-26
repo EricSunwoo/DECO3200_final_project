@@ -19,8 +19,9 @@ const Boards = ({ boards, category, styles }) => {
             <div class="carousel-caption" style={{padding: 15}}>
             <h3 key={boardId} className={styles.header} >
               <Link to={`board/${board.key}`} className={styles.link}>
+                <h3>{board.value.source}</h3>
                 {/* this makes an image and title a clickable link >> Eric */}
-              <img src={board.value.image} class="img-responsive" width="307" style={{paddingBottom: 15}}/>
+              <img src={board.value.image} width="100%" height="auto" style={{paddingBottom: 15}}/>
               <figcaption>{board.value.title}</figcaption> 
               </Link>
               <hr/>

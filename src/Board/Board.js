@@ -129,7 +129,6 @@ class Board extends Component {
         <Card className={styles.container}> 
         <div className={styles.headerContainer}>             
         <h2 className={styles.header}>
-                
               <a href= {board.link} target="_blank"><b>{board.title}</b>    
              <img src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/15677149341556277321-512.png" width="25px" height="auto" ></img>
              </a> 
@@ -140,7 +139,7 @@ class Board extends Component {
         <Card className={styles.container}>
           <div className={styles.headerContainer}>
           <h2 className={styles.header}>
-              Discuss any <b>{board.tricks}</b> you discovered
+              Discuss any tricks you have discovered
             </h2> 
 
 

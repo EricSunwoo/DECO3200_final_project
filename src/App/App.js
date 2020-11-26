@@ -6,6 +6,8 @@ import LoadingSpinner from './LoadingSpinner'
 // DexDes: The user setting for dark/light version is unnecessary
 import UserSettings from './UserSettings'
 import globalStyles from '../globalStyles'
+import { Card } from 'elemental'
+
 
 class App extends Component {
 
@@ -59,8 +61,9 @@ class App extends Component {
             threadKey={threadKey}
             toggleSettings={this.toggleSettings}
             styles={theme.TopBar}
-            theme={theme} />
-          <div className={styles.body}>
+            theme={theme} />          
+          <div className={styles.body}>            
+
             {children}
           </div>
           <Footer styles={theme.Footer} />

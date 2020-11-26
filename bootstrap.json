@@ -6,6 +6,7 @@
   "boards": {
     "0": {
       "title": "'10 Reasons To Prove That Climate Change is a Hoax'",
+      "source": "Earth Eclipse",
       "link": "https://www.eartheclipse.com/climate-change/10-reasons-climate-change-is-hoax.html",
       "content": "https://i.imgur.com/QHfgYsD.jpg",
       "tricks": "Cherry Picking",
@@ -17,8 +18,10 @@
     },
     "1": {
       "title": "'REPORT: Earth Has Not Warmed For Past 19 Years'",
+      "source": "Daily Wire",
       "link": "https://www.eartheclipse.com/climate-change/10-reasons-climate-change-is-hoax.html",
-      "content": "https://i.imgur.com/TAiQHKl.png",
+      "content": "https://i.imgur.com/t3TplXu.jpg",
+      "tricks": "Fake Experts",
       "image": "https://inthesetimes.com/imager/s3_us-east-2_amazonaws_com/itt-images/macdonald_climate_change_denial_carbon_01c8ac7cc3b849e525e370bc51344120.jpg",
       "active": true,
       "threads": {
@@ -26,10 +29,12 @@
       }
     },
     "2": {
-      "title": "'Newly released emails prove that scientists have manipulated data on global warming'",
-      "link": "https://twitter.com/realDonaldTrump/status/141946031049949184",
-      "image": "https://s.wsj.net/public/resources/images/EG-AC464A_Delin_G_20111124140557.jpg",
-      "content": "https://i.imgur.com/TAiQHKl.png",
+      "title": "'The concept of global warming was created by and for the Chinese'",
+      "source": "Donald J Trump",
+      "link": "https://twitter.com/realdonaldtrump/status/265895292191248385?lang=en",
+      "image": "https://cdn.theatlantic.com/thumbor/0WA39dsQbPqE8_5l7A_-cvnqkMM=/0x14:3500x1982/720x405/media/img/mt/2018/10/RTX6EM3M/original.jpg",
+      "content": "https://i.imgur.com/bvNgmPM.jpg",
+      "tricks": "Conspiracy Theories",
       "active": true,
       "threads": {
         "0": false
@@ -45,7 +50,7 @@
   },
   "categories": {
     "1": {
-      "title": "Discuss articles on climate change",
+      "title": "Lets discuss about these articles",
       "active": true,
       "boards": {
         "0": true,
@@ -53,7 +58,6 @@
         "2": true
       }
     }
-
   },
   "posts": {
     "0": {
