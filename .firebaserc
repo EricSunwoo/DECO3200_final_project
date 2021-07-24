@@ -1,9 +1,6 @@
 {
   "projects": {
-    "default": "evocative-volt-236503"
+    "default": "evocative-volt-236503",
+    "blogging": "evocative-volt-236503"
   }
-
-  
-
 }
-
